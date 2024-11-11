@@ -8,10 +8,16 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom",
+    "next": "$next"
+  },
   "dependencies": {
+    "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "postcss": "^8",
